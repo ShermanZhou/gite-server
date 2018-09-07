@@ -10,7 +10,7 @@ $ gite-server --help
 ```
 
 
-Cross arch build for windows/mac/linux:
+Cross arch build options GOOS= windows | darwin | linux:
 ```
 $ GOOS=darwin GOARCH=amd64 go build .
 ```
