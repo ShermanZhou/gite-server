@@ -8,3 +8,10 @@ and cause the page to reload. It is stand alone; single binary; when you don't w
 ```
 $ gite-server --help  
 ```
+
+
+Cross arch build for windows/mac/linux:
+```
+$ GOOS=darwin GOARCH=amd64 go build .
+```
+
